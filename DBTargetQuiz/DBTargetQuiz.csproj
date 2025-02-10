@@ -1,0 +1,63 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\Images\ALBERTO-BEINGOLEA.JPG" />
+    <Content Remove="wwwroot\Images\CARLOS-ENRIQUE-CHACON.JPG" />
+    <Content Remove="wwwroot\Images\DANIEL-URRESTRI.JPG" />
+    <Content Remove="wwwroot\Images\DIETHELL-COLUMBUS.JPG" />
+    <Content Remove="wwwroot\Images\ENRIQUE-CORNEJO.JPG" />
+    <Content Remove="wwwroot\Images\ESTHER-CAPUNAY.JPG" />
+    <Content Remove="wwwroot\Images\GUSTAVO-GUERRA.JPG" />
+    <Content Remove="wwwroot\Images\HUMBERTO-LAY.JPG" />
+    <Content Remove="wwwroot\Images\JAIME-SALINAS.JPG" />
+    <Content Remove="wwwroot\Images\JORGE-MUNOZ.JPG" />
+    <Content Remove="wwwroot\Images\JORGE-VILLACORTA.JPG" />
+    <Content Remove="wwwroot\Images\JUAN-CARLOS.JPG" />
+    <Content Remove="wwwroot\Images\JULIO-GAGO.jpg" />
+    <Content Remove="wwwroot\Images\LUIS-CASTANEDA.JPG" />
+    <Content Remove="wwwroot\Images\LUIS-ENRIQUE-OCROSPOMA.JPG" />
+    <Content Remove="wwwroot\Images\MANUEL-VELARDE.JPG" />
+    <Content Remove="wwwroot\Images\PABLO-JACINTO.JPG" />
+    <Content Remove="wwwroot\Images\RENZO-REGGIARDO.JPG" />
+    <Content Remove="wwwroot\Images\RICARDO-BELTMONT.JPG" />
+    <Content Remove="wwwroot\Images\ROBERTO-GOMEZ.JPG" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BussinesLogic\BussinesLogic.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Resultado\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Images\ALBERTO-BEINGOLEA.JPG" />
+    <None Include="wwwroot\Images\CARLOS-ENRIQUE-CHACON.JPG" />
+    <None Include="wwwroot\Images\DANIEL-URRESTRI.JPG" />
+    <None Include="wwwroot\Images\DIETHELL-COLUMBUS.JPG" />
+    <None Include="wwwroot\Images\ENRIQUE-CORNEJO.JPG" />
+    <None Include="wwwroot\Images\ESTHER-CAPUNAY.JPG" />
+    <None Include="wwwroot\Images\GUSTAVO-GUERRA.JPG" />
+    <None Include="wwwroot\Images\HUMBERTO-LAY.JPG" />
+    <None Include="wwwroot\Images\JAIME-SALINAS.JPG" />
+    <None Include="wwwroot\Images\JORGE-MUNOZ.JPG" />
+    <None Include="wwwroot\Images\JORGE-VILLACORTA.JPG" />
+    <None Include="wwwroot\Images\JUAN-CARLOS.JPG" />
+    <None Include="wwwroot\Images\JULIO-GAGO.jpg" />
+    <None Include="wwwroot\Images\LUIS-CASTANEDA.JPG" />
+    <None Include="wwwroot\Images\LUIS-ENRIQUE-OCROSPOMA.JPG" />
+    <None Include="wwwroot\Images\MANUEL-VELARDE.JPG" />
+    <None Include="wwwroot\Images\PABLO-JACINTO.JPG" />
+    <None Include="wwwroot\Images\RENZO-REGGIARDO.JPG" />
+    <None Include="wwwroot\Images\RICARDO-BELTMONT.JPG" />
+    <None Include="wwwroot\Images\ROBERTO-GOMEZ.JPG" />
+  </ItemGroup>
+
+</Project>
